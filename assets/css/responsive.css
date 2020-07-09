@@ -1,0 +1,78 @@
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area{
+        width:970px;
+    }
+    .welcome-menu {
+        flex-basis: 15%;
+    }
+    .welcome-content {
+        flex-basis: 85%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area{
+        width:750px
+    }
+    .welcome-menu {
+        flex-basis: 20%;
+    }
+    .welcome-content {
+        flex-basis: 80%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .area{
+        width:320px;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .welcome-menu {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+    .welcome-content {
+        flex-basis: 100%;
+    }
+    .single-welcome {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .about-left, .about-menu {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .single-footer:nth-child(1), .single-footer:nth-child(2), .single-footer:nth-child(3) {
+        flex-basis: 100%;
+        margin-bottom:20px
+    }
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .area{
+        width:450px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
